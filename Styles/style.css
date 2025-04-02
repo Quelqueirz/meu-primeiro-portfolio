@@ -55,7 +55,6 @@ body{
     padding: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 82px;
 }
 .apresentacao__conteudo{
@@ -76,7 +75,7 @@ body{
 }
 
 .apresentacao__links{
-    display: flex;
+        display: flex;
         justify-content: space-between;
         flex-direction: column;
         align-items: center;
@@ -91,7 +90,7 @@ body{
     border-radius: 8px;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 21.5px 0;
+    padding: 25px 100px;
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
@@ -103,9 +102,17 @@ body{
 .apresentacao__links__navegacao:hover {
     background-color: #272727;
 }
-
+.imagem {
+    text-align: center;
+}
 .apresentacao__imagem {
     width: 50%;
+    border: 5px solid var(--cor-terciaria)
+}
+
+.apresentacao__imagem__sobremim{
+    width: 50%;
+    border:5px solid var(--cor-terciaria)
 }
 .rodape {
     color: var(--cor-primaria);
